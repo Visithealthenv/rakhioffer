@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
 <title>Diabetes Control Program · Talk to a Counsellor</title>
-<meta name="description" content="Tell us your goals and our counsellor will call you back — Visit Health, on behalf of Niva Bupa.">
+<meta name="description" content="Tell us your goals and our counsellor will call you back - Visit Health, on behalf of Niva Bupa.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -418,7 +418,7 @@ input:focus-visible,.opt:focus-within{
         <svg id="btnArrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h13M13 6l6 6-6 6"/></svg>
       </button>
 
-      <p class="saveerr" id="saveErr">Couldn't save that — check your connection and tap Try again.</p>
+      <p class="saveerr" id="saveErr">Couldn't save that - check your connection and tap Try again.</p>
 
       <p class="offer">
         <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
@@ -441,12 +441,12 @@ input:focus-visible,.opt:focus-within{
     </div>
 
     <h2 class="rise d1">Our health expert will call you <em id="doneSlot">shortly</em></h2>
-    <p class="rise d2" id="doneMsg">Thanks<span id="doneName"></span> — your request is in. Your Rakhi discount is held till the call.</p>
+    <p class="rise d2" id="doneMsg">Thanks<span id="doneName"></span> - your request is in. Your Rakhi discount is held till the call.</p>
 
     <ul class="nextlist rise d4">
       <li><span class="n">1</span><span class="t"><b>A health expert calls you</b><span>In the slot you picked. They understand your condition and answer everything.</span></span></li>
       <li><span class="n">2</span><span class="t"><b>Your personalised plan is assigned</b><span>Built around the goals you just told us, with a diabetologist on your case.</span></span></li>
-      <li><span class="n">3</span><span class="t"><b>Your health coach takes it forward</b><span>Nutrition, activity and daily routine — shaped to how you actually live.</span></span></li>
+      <li><span class="n">3</span><span class="t"><b>Your health coach takes it forward</b><span>Nutrition, activity and daily routine - shaped to how you actually live.</span></span></li>
       <li><span class="n">4</span><span class="t"><b>Diagnostics, whenever it suits you</b><span>HbA1c, FBS and Creatinine at home or a nearby lab, to track your progress.</span></span></li>
     </ul>
 
@@ -530,7 +530,7 @@ form.addEventListener('submit', async (e) => {
   document.getElementById('saveErr').style.display = 'none';
 
   try {
-    /* text/plain keeps this a "simple" request — no CORS preflight,
+    /* text/plain keeps this a "simple" request - no CORS preflight,
        which Apps Script cannot answer. */
     const res  = await fetch(ENDPOINT, {
       method  : 'POST',
